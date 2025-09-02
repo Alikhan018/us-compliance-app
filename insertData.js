@@ -1,8 +1,8 @@
 const data = require('./business-rules.json')
 const { MongoClient } = require("mongodb");
 
-const url = "mongodb+srv://Ali:123@cluster0.iwu9tc2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-const dbName = "us-compliance-app";
+const url = "uri-here";
+const dbName = "dbname";
 
 async function run() {
     const client = new MongoClient(url);
